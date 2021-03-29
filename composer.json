@@ -1,0 +1,19 @@
+{
+    "name": "kirillbdev/my-plugin",
+    "description": "My DI plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "kirillbdev",
+            "email": "kirill.babinec@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "kirillbdev\\MyPlugin\\": "src/"
+        }
+    }
+}

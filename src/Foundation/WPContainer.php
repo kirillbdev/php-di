@@ -6,7 +6,7 @@ if ( ! defined('ABSPATH')) {
     exit;
 }
 
-class Container
+class WPContainer
 {
     private static $instance;
 
